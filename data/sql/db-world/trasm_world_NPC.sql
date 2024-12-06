@@ -1,6 +1,6 @@
 SET
 @Entry = 190010,
-@Name = "Warpweaver";
+@Name = "曲速织法者";
 DELETE FROM `creature_template` WHERE `entry` = @Entry;
 
 INSERT INTO `creature_template` (`entry`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction`, `npcflag`, `scale`, `rank`, `dmgschool`, `baseattacktime`, `rangeattacktime`, `unit_class`, `unit_flags`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `AIName`, `MovementType`, `HoverHeight`, `RacialLeader`, `movementId`, `RegenHealth`, `mechanic_immune_mask`, `flags_extra`, `ScriptName`) VALUES
@@ -23,7 +23,7 @@ INSERT INTO `creature_template_locale` (`entry`, `locale`, `Name`, `Title`) VALU
 
 SET
 @Entry = 190011,
-@Name = "Ethereal Warpweaver";
+@Name = "虚空织法者";
 DELETE FROM `creature_template` WHERE `entry` = @Entry;
 
 INSERT INTO `creature_template` (`entry`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction`, `npcflag`, `scale`, `rank`, `dmgschool`, `baseattacktime`, `rangeattacktime`, `unit_class`, `unit_flags`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `AIName`, `MovementType`, `HoverHeight`, `RacialLeader`, `movementId`, `RegenHealth`, `mechanic_immune_mask`, `flags_extra`, `ScriptName`) VALUES
